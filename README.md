@@ -9,6 +9,9 @@ cd fabfc
 flutter build web
 cd build/web
 git init
+```
+** Now remove the `<base href=/>` line in index.html that gets made! ** Then...
+```
 git add *
 git commit -m "deploy web app"
 git branch -M main
